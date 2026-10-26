@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026: Juegos</title>
+
+    <meta name="author" content="Andrés Fernández García" />
+    <meta name="description" content="Documento juegos del proyecto LaVuelta2026" />
+   
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/favicon.ico" />
+
+</head>
+
+<body>
+   <!-- contenido de juegos.html  -->
+    <header>
+        <h1>
+            <a href="index.html">
+                LaVuelta2026
+            </a>
+        </h1>
+        <nav>
+            <a href="index.html" title="Página principal del proyecto">Inicio</a>
+            <a href="ciclista.html" title="Información y perfil del ciclista">Ciclista</a>
+            <a href="equipo.html" title="Datos sobre el equipo deportivo">Equipo</a>
+            <a href="etapa.html" title="Detalles de la etapa de la carrera">Etapa</a>
+            <a href="meteorologia.html" title="Predicción del tiempo meteorológico">Meteorología</a>
+            <a href="clasificaciones.html" title="Tabla de clasificaciones de la prueba">Clasificaciones</a>
+            <a href="juegos.html" title="Sección de juegos interactivos" aria-current="page">Juegos</a>
+            <a href="ayuda.html" title="Centro de ayuda y soporte">Ayuda</a>
+        </nav>
+    </header>
+    <nav aria-label="migas">
+        <ol>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>>></li>
+            <li>Juegos</li>
+        </ol>
+    </nav>
+    <main>
+        <h2>
+            Juegos
+        </h2>
+        <h3>
+            ¿Conoces la etapa?
+        </h3>
+        <p>
+            En este minijuego podrás poner a prueba 
+            tus conocimientos acerca de esta etapa de LaVuelta2026.
+            Se trata de un cuestionario de 10 preguntas relacionadas
+            con la información de dicha etapa disponible en
+            este sitio web.
+        </p>
+        <form>
+            <fieldset>
+                <legend>Andorra la Vella - Andorra la Vella</legend>
+                <p>
+                    <label for = "pregunta_1">¿Cuál es el número correspondiente a esta etapa?</label>
+                    <input type = "number" id = "pregunta_1" min = "1" max = "21"/>
+                </p>
+                <p>
+                    <label for = "pregunta_2">¿En que fecha se llevó a cabo esta etapa?</label>
+                    <input type = "date" id = "pregunta_2" min = "2026-01-01" max = "2026-12-31"/>
+                </p>
+                <p>
+                    <label for = "pregunta_3">¿Cuál fue la ciudad de salida de la etapa?</label>
+                    <select id = "pregunta_3">
+                        <option>Mónaco</option>
+                        <option>Gruissan</option>
+                        <option>Andorra la Vella</option>
+                        <option>Falset</option>
+                        <option>Alcossebre</option>
+                        <option>Vall d'Alba</option>
+                        <option>Puçol</option>
+                        <option>Villajoyosa</option>
+                        <option>Alcaraz</option>
+                        <option>Cartagena</option>
+                        <option>Vera</option>
+                        <option>Almuñécar</option>
+                        <option>Jaén</option>
+                        <option>Palma del Río</option>
+                        <option>Cortegana</option>
+                        <option>Dos Hermanas</option>
+                        <option>El Puerto de Santa María</option>
+                        <option>Vélez-Málaga</option>
+                        <option>La Calahorra</option>
+                        <option>Granada</option>
+                    </select>
+                </p>
+                <p>
+                    <label for = "pregunta_4">¿Cuál fue la ciudad de llegada de la etapa?</label>
+                    <select id = "pregunta_4">
+                        <option>Mónaco</option>
+                        <option>Manosque</option>
+                        <option>Font-Romeu</option>
+                        <option>Andorra la Vella</option>
+                        <option>Roquetes</option>
+                        <option>Castelló</option>
+                        <option>Aramón Valdelinares</option>
+                        <option>Xeraco</option>
+                        <option>Alto de Aitana</option>
+                        <option>Elche de la Sierra</option>
+                        <option>Lorca</option>
+                        <option>Observatorio de Calar Alto</option>
+                        <option>Loja</option>
+                        <option>Sierra de la Pandera</option>
+                        <option>Córdoba</option>
+                        <option>La Rábida</option>
+                        <option>Sevilla</option>
+                        <option>Jerez de la Frontera</option>
+                        <option>Peñas Blancas</option>
+                        <option>Collado del Alguacil</option>
+                        <option>Granada</option>
+                    </select>
+                </p>
+                <p>
+                    <label>¿De que tipo es esta etapa?</label>
+                </p>
+                <p><input type = "radio" name="tipo_etapa" id = "pregunta_5_boton_1">Llana</p>
+                <p><input type = "radio" name="tipo_etapa" id = "pregunta_5_boton_2">Media montaña</p>
+                <p><input type = "radio" name="tipo_etapa" id = "pregunta_5_boton_3">Montaña</p>
+                <p><input type = "radio" name="tipo_etapa" id = "pregunta_5_boton_4">Contrarreloj individual</p>
+                <p><input type = "radio" name="tipo_etapa" id = "pregunta_5_boton_5">Contrarreloj por equipos</p>
+                
+                <p>
+                    <label>¿Que hitos se pueden encontrar en esta etapa?</label>
+                </p>
+                <p><input type = "checkbox" name="hito" id="pregunta_6_boton_1">Puerto de montaña</p>
+                <p><input type = "checkbox" name="hito" id="pregunta_6_boton_2">Puerto categoría especial</p>
+                <p><input type = "checkbox" name="hito" id="pregunta_6_boton_3">Sprint intermedio</p>
+                <p><input type = "checkbox" name="hito" id="pregunta_6_boton_4">Sprint bonificado</p>
+                <p><input type = "checkbox" name="hito" id="pregunta_6_boton_5">Sin hitos</p>
+                
+                <p>
+                    <label for = "pregunta_7">Valora la dureza de la etapa del 1 al 10</label>
+                    <input type = "range" id = "pregunta_7" min = "1" max = "10">
+                </p>
+                <p>
+                    <label for = "pregunta_8">¿Cuántos kilómetros contiene esta etapa?</label>
+                    <input type = "number" id = "pregunta_8" min = "1" max = "201" step = "5"/>
+                </p>
+                <p>
+                    <label for = "pregunta_9">¿Cuánto desnivel tiene esta etapa?</label>
+                    <input type = "number" id = "pregunta_9" min = "1000" max = "3000" step = "10"/>
+                </p>
+                <p>
+                    <label for = "pregunta_10">Describa brevemente la etapa</label>
+                    <textarea id = "pregunta_10"></textarea>
+                </p>
+                <p>
+                    <label for = "pregunta_11">Introduzca su nombre</label>
+                    <input type = "text" id = "pregunta_11"/>
+                </p>
+                <p>
+                    <button type="submit">Enviar</button>
+                </p>
+                
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Andrés Fernández García</p>
+        <address><a href="mailto:UO306603@uniovi.es">UO306603@uniovi.es</a></address>
+    </footer>
+</body>
+</html>

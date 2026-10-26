@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026:Ciclista</title>
+
+    <meta name="author" content="Andrés Fernández García" />
+    <meta name="description" content="Documento ciclista del proyecto LaVuelta2026" />
+    
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/favicon.ico" />
+
+</head>
+
+<body>
+   <!-- contenido de ciclista.html  -->
+    <header>
+        <h1>
+            <a href="index.html">
+                LaVuelta2026
+            </a>
+        </h1>
+        <nav>
+            <a href="index.html" title="Página principal del proyecto">Inicio</a>
+            <a href="ciclista.html" title="Información y perfil del ciclista" aria-current="page">Ciclista</a>
+            <a href="equipo.html" title="Datos sobre el equipo deportivo">Equipo</a>
+            <a href="etapa.html" title="Detalles de la etapa de la carrera">Etapa</a>
+            <a href="meteorologia.html" title="Predicción del tiempo meteorológico">Meteorología</a>
+            <a href="clasificaciones.html" title="Tabla de clasificaciones de la prueba">Clasificaciones</a>
+            <a href="juegos.html" title="Sección de juegos interactivos">Juegos</a>
+            <a href="ayuda.html" title="Centro de ayuda y soporte">Ayuda</a>
+        </nav>
+    </header>
+    <nav aria-label="migas">
+        <ol>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>>></li>
+            <li>Ciclista</li>
+        </ol>
+    </nav>
+    <main>
+        <h2>
+            Matevž Govekar 
+        </h2>
+        <section id="datos_personales">
+            <h3>
+                Datos personales
+            </h3>
+            <ul>
+                <li>Matevž Govekar</li>
+                <li>17/04/2000</li>
+                <li>Eslovenia</li>
+                <li>Bahrain victorious</li>
+                <li>74</li>
+            </ul>
+            <picture>
+                <source media="(max-width: 768px)" srcset="multimedia/fotoCiclistaMovil.png" width="180" height="273">
+                
+                <source media="(max-width: 1024px)" srcset="multimedia/fotoCiclistaTablet.png" width="240" height="364">
+                
+                <img src="multimedia/fotoCiclista.png" alt="Fotografía del ciclista" width="300" height="455">
+            </picture>
+        </section>
+
+        <section>
+            <h3>
+                Datos equipos
+            </h3>
+            <ol>
+                <li>Bahrain victorious</li>
+                <li>Tirol KTM Cycling Team</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>
+                Temporada 2025
+            </h3>
+            <table>
+                <tr>
+                    <th scope="col" id="dato">Dato</th>
+                    <th scope="col" id="valor">Valor</th>
+                </tr>
+                <tr>
+                    <td headers="dato">Puntuación PCS</td>
+                    <td headers="valor">114</td>
+                </tr>
+                <tr>
+                    <td headers="dato">Puntuación UCI</td>
+                    <td headers="valor">192</td>
+                </tr>
+                <tr>
+                    <td headers="dato">Días de competición</td>
+                    <td headers="valor">65</td>
+                </tr>
+                <tr>
+                    <td headers="dato">Posición Ranking PCS</td>
+                    <td headers="valor">497</td>
+                </tr>
+                <tr>
+                    <td headers="dato">Posición Ranking UCI</td>
+                    <td headers="valor">431</td>
+                </tr>
+                <tr>
+                    <td headers="dato">Mejor resultado en carrera</td>
+                    <td headers="valor">3º</td>
+                </tr>
+            </table>
+
+        </section>
+        <section id="multimedia">
+            <h3>Multimedia</h3>
+            <p>
+                Equipo <a href="https://www.lavuelta.es/es/equipo/TBV/bahrain-victorious">Bahrain victorious</a> en la Vuelta Ciclista a España 2026.
+            </p>
+            <video controls poster="multimedia/imagenPlantillaPoster.jpg" width="400">
+            
+                <source src="multimedia/videoPresentacion.webm" type="video/webm">
+            
+                <source src="multimedia/videoPresentacion.mp4" type="video/mp4">
+            
+            </video>
+
+            <audio controls>
+                <source src="multimedia/audioHistoriaEquipo.mp3" type="audio/mpeg">
+                
+                <source src="multimedia/audioHistoriaEquipo.wav" type="audio/wav">
+            </audio>
+        </section>
+    </main>
+    <footer>
+        <p>Andrés Fernández García</p>
+        <address><a href="mailto:UO306603@uniovi.es">UO306603@uniovi.es</a></address>
+    </footer>
+    
+</body>
+</html>
