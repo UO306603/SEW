@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<etapa xmlns="http://www.uniovi.es"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.uniovi.es etapa.xsd">
+    <nombre>Andorra la Vella a Andorra la Vella</nombre>
+    <numero>4</numero>
+    <longitud_etapa unidad="km">104.8</longitud_etapa>
+    <fecha>2026-08-25</fecha>
+    <tiempo_ganador>PT2H40M35S</tiempo_ganador>
+    <velocidad_media unidad="km/h">39.157</velocidad_media>
+    <desnivel unidad="m">2953</desnivel>
+    
+    <inicio>
+        <ciudad>Andorra la Vella</ciudad>
+        <coordenadas>
+            <longitud_geo unidad="grados decimales">1.5211</longitud_geo>
+            <latitud_geo unidad="grados decimales">42.5078</latitud_geo>
+            <altitud unidad="m">1023 </altitud>
+        </coordenadas>
+    </inicio>
+    
+    <meta>
+        <ciudad>Andorra la Vella</ciudad>
+         <coordenadas>
+            <longitud_geo unidad="grados decimales">1.5211</longitud_geo>
+            <latitud_geo unidad="grados decimales">42.5078</latitud_geo>
+            <altitud unidad="m">1023 </altitud>
+        </coordenadas>
+    </meta>
+    
+    <tipo>montaña</tipo>
+    
+    <referencias>
+        <referencia>https://www.lavuelta.es/es/etapa-4</referencia>
+        <referencia>https://www.lavuelta.es/es/clasificaciones/etapa-4</referencia>
+        <referencia>https://www.lavuelta.es/es/video/3610/minuto-maillot-rojo-carrefour-etapa-4-la-vuelta-26</referencia>
+    </referencias>
+    
+    <galeria_fotografias>
+        <fotografia>foto1</fotografia>
+        <fotografia>foto2</fotografia>
+        <fotografia>foto3</fotografia>
+    </galeria_fotografias>
+    
+    <galeria_videos>
+        <video>video1</video>
+        <video>video2</video>
+    </galeria_videos>
+    
+    <galeria_audios>
+        <audio>audio1</audio>
+        <audio>audio2</audio>
+    </galeria_audios>
+    
+    <hitos>
+        <!-- Puerto 1: Port d'Envalira -->
+    <puerto_montana>
+        <nombre_hito>Port d'Envalira</nombre_hito>
+        <categoria>1ª</categoria>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.71989</longitud_geo>
+            <latitud_geo unidad="grados">42.54037</latitud_geo>
+            <altitud unidad="m">2409 </altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">25.1</distancia_salida>
+    </puerto_montana>
+
+    <!-- Puerto 2: Collada de Beixalis -->
+    <puerto_montana>
+        <nombre_hito>Collada de Beixalis</nombre_hito>
+        <categoria>1ª</categoria>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.54771</longitud_geo>
+            <latitud_geo unidad="grados">42.52908</latitud_geo>
+            <altitud unidad="m">1795</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">59.3</distancia_salida>
+    </puerto_montana>
+
+    <!-- Sprint 1: Ordino -->
+    <sprint>
+        <nombre_hito>Ordino</nombre_hito>
+        <tipo_sprint>Intermedio</tipo_sprint>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.53319</longitud_geo>
+            <latitud_geo unidad="grados">42.55623</latitud_geo>
+            <altitud unidad="m">1298</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">68.4</distancia_salida>
+    </sprint>
+
+    <!-- Puerto 3: Col de Ordino -->
+    <puerto_montana>
+        <nombre_hito>Col de Ordino</nombre_hito>
+        <categoria>1ª</categoria>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.5722</longitud_geo>
+            <latitud_geo unidad="grados">42.5561</latitud_geo>
+            <altitud unidad="m">1980</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">78.7</distancia_salida>
+    </puerto_montana>
+
+    <!-- Puerto 4: Alto de La Comella -->
+    <puerto_montana>
+        <nombre_hito>Alto de La Comella</nombre_hito>
+        <categoria>3ª</categoria>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.531415</longitud_geo>
+            <latitud_geo unidad="grados">42.500534</latitud_geo>
+            <altitud unidad="m">1347</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">100.0</distancia_salida>
+    </puerto_montana>
+    </hitos>
+    
+    <puntos_anonimos>
+    <punto_anonimo>
+        <nombre_punto>Encamp</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.5822</longitud_geo>
+            <latitud_geo unidad="grados">42.5361</latitud_geo>
+            <altitud unidad="m">1300</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">1.7</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Comienza puerto</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.5830</longitud_geo>
+            <latitud_geo unidad="grados">42.5370</latitud_geo>
+            <altitud unidad="m">1310</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">1.8</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Canillo</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.5977</longitud_geo>
+            <latitud_geo unidad="grados">42.5667</latitud_geo>
+            <altitud unidad="m">1530</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">8.1</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>El Tarter</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.6531</longitud_geo>
+            <latitud_geo unidad="grados">42.5794</latitud_geo>
+            <altitud unidad="m">1710</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">13.2</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Soldeu</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.6678</longitud_geo>
+            <latitud_geo unidad="grados">42.5767</latitud_geo>
+            <altitud unidad="m">1825</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">15.8</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Pas de la Casa</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.7336</longitud_geo>
+            <latitud_geo unidad="grados">42.5428</latitud_geo>
+            <altitud unidad="m">2080</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">29.9</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Francia</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.7380</longitud_geo>
+            <latitud_geo unidad="grados">42.5440</latitud_geo>
+            <altitud unidad="m">2085</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">30.3</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Andorra</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.7350</longitud_geo>
+            <latitud_geo unidad="grados">42.5430</latitud_geo>
+            <altitud unidad="m">2070</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">31.1</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Tunel 2.870 metros iluminado</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.7198</longitud_geo>
+            <latitud_geo unidad="grados">42.5453</latitud_geo>
+            <altitud unidad="m">2000</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">31.4</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>pasos estrechos por casetas de peaje</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.6912</longitud_geo>
+            <latitud_geo unidad="grados">42.5580</latitud_geo>
+            <altitud unidad="m">1950</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">34.7</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Soldeu</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.6678</longitud_geo>
+            <latitud_geo unidad="grados">42.5767</latitud_geo>
+            <altitud unidad="m">1825</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">38.7</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>El Tarter</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.6531</longitud_geo>
+            <latitud_geo unidad="grados">42.5794</latitud_geo>
+            <altitud unidad="m">1710</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">41.0</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Canillo</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.5977</longitud_geo>
+            <latitud_geo unidad="grados">42.5667</latitud_geo>
+            <altitud unidad="m">1530</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">46.0</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Encamp</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.5822</longitud_geo>
+            <latitud_geo unidad="grados">42.5361</latitud_geo>
+            <altitud unidad="m">1300</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">50.5</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Rotonda derecha dirección Vila</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.5790</longitud_geo>
+            <latitud_geo unidad="grados">42.5342</latitud_geo>
+            <altitud unidad="m">1310</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">52.1</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Rontonda izquierda dirección Vila comienza puerto</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.5775</longitud_geo>
+            <latitud_geo unidad="grados">42.5335</latitud_geo>
+            <altitud unidad="m">1320</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">52.8</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Cruce recto dirección l'Aldosa</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.5312</longitud_geo>
+            <latitud_geo unidad="grados">42.5488</latitud_geo>
+            <altitud unidad="m">1280</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">65.7</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>l'Aldosa de la Massana</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.5264</longitud_geo>
+            <latitud_geo unidad="grados">42.5439</latitud_geo>
+            <altitud unidad="m">1240</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">67.0</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>rotonda derecha dirección Canillo, Col de Ordino comienza puerto</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.5338</longitud_geo>
+            <latitud_geo unidad="grados">42.5568</latitud_geo>
+            <altitud unidad="m">1305</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">68.8</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Canillo cruce derecha dirección Andorra la Vella</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.5970</longitud_geo>
+            <latitud_geo unidad="grados">42.5662</latitud_geo>
+            <altitud unidad="m">1525</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">87.6</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Encamp</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.5822</longitud_geo>
+            <latitud_geo unidad="grados">42.5361</latitud_geo>
+            <altitud unidad="m">1300</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">91.6</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Escaldes-Engordany</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.5389</longitud_geo>
+            <latitud_geo unidad="grados">42.5090</latitud_geo>
+            <altitud unidad="m">1050</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">95.5</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Comienza puerto rotonda izquierda dirección Engolasters</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.5420</longitud_geo>
+            <latitud_geo unidad="grados">42.5085</latitud_geo>
+            <altitud unidad="m">1060</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">96.1</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Cruce derecha dirección La Comella</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.5450</longitud_geo>
+            <latitud_geo unidad="grados">42.5060</latitud_geo>
+            <altitud unidad="m">1120</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">97.3</distancia_salida>
+    </punto_anonimo>
+
+    <punto_anonimo>
+        <nombre_punto>Cruce derecha dirección Francia</nombre_punto>
+        <coordenadas>
+            <longitud_geo unidad="grados">1.5270</longitud_geo>
+            <latitud_geo unidad="grados">42.5075</latitud_geo>
+            <altitud unidad="m">1025</altitud>
+        </coordenadas>
+        <distancia_salida unidad="km">104.4</distancia_salida>
+    </punto_anonimo>
+</puntos_anonimos>
+    
+    <clasificacion_etapa>
+        <primero>
+            <nombre_participante>Tadej Pogacar</nombre_participante>
+            <tiempo>PT2H40M35S</tiempo>
+        </primero>
+        <segundo>
+            <nombre_participante>Jarno Widar</nombre_participante>
+            <diferencia>PT2M39S</diferencia>
+        </segundo>
+        <tercero>
+            <nombre_participante>Félix Gall</nombre_participante>
+            <diferencia>PT2M39S</diferencia>
+        </tercero>
+    </clasificacion_etapa>
+    
+    <clasificacion_general>
+        <primero>
+            <nombre_participante>Tadej Pogacar</nombre_participante>
+            <tiempo>PT7H38M59S</tiempo>
+        </primero>
+        <segundo>
+            <nombre_participante>Primoz Roglic</nombre_participante>
+            <diferencia>PT3M21S</diferencia>
+        </segundo>
+        <tercero>
+            <nombre_participante>Enric Mas</nombre_participante>
+            <diferencia>PT3M32S</diferencia>
+        </tercero>
+    </clasificacion_general>
+    
+    <clasificacion_equipos>
+        <equipo_primero>
+            <nombre_equipo>UAE Team Emirates</nombre_equipo>
+            <tiempo>PT23H06M42S</tiempo>
+        </equipo_primero>
+        <equipo_segundo>
+            <nombre_equipo>Decathlon Cma Cmg Team</nombre_equipo>
+            <diferencia>PT06M20S</diferencia>
+        </equipo_segundo>
+        <equipo_tercero>
+            <nombre_equipo>Team Visma - Lease a Bike</nombre_equipo>
+            <diferencia>PT10M26S</diferencia>
+        </equipo_tercero>
+    </clasificacion_equipos>
+</etapa>
