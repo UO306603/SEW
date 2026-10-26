@@ -1,0 +1,160 @@
+/* ***************************************/
+/*           LaVuelta2026                */
+/*          Estilos layout               */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/*  Nombre y Apellidos:                  */
+/*  Correo electrónico (uniovi):         */
+/*  Grupo de laboratorio:                */
+/* ***************************************/
+
+/* Especificidad: 001 */
+body {
+    margin: 0;
+}
+
+/*Especificidad: 101*/
+section#datos_personales {
+    display: flex;         
+    flex-direction: row;    
+    flex-wrap: wrap;        
+    align-items: center;
+}
+
+/*Especificidad: 102*/
+section#datos_personales h3 {
+    flex-basis: 100%;      
+    order: 1;              
+}
+
+/*Especificidad: 102*/
+section#datos_personales picture {
+    order: 2;              
+}
+
+/*Especificidad: 102*/
+section#datos_personales ul {
+    order: 3;         
+}
+
+
+/*Especificidad: 101*/
+section#multimedia{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/*Especificidad: 101*/
+section#alineacion_corredores {
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 1em;
+}
+
+/*Especificidad: 112*/
+section#alineacion_corredores h3:first-child{
+    grid-column: 1 / -1;
+}
+
+/* Especificidad: 001 */
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "cabecera"
+        "migas"
+        "contenido"
+        "pie";
+    grid-template-rows: auto auto 1fr auto;
+}
+
+/* Especificidad: 002 */
+body > header {
+    grid-area: cabecera;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Especificidad: 003 */
+body > header + nav {
+    grid-area: migas;
+}
+
+/* Especificidad: 002 */
+body > main {
+    grid-area: contenido;
+}
+
+/* Especificidad: 002 */
+body > footer {
+    grid-area: pie;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* Especificidad: 101 */
+    section#alineacion_corredores {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Especificidad: 002 */
+    body > header {
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        gap: 1em;
+    }
+
+    /* Especificidad: 003 */
+    body > header nav {
+        width: 100%;
+    }
+
+    /* Especificidad: 004 */
+    body > header nav ul {
+        display: flex;
+        justify-content: space-between; 
+        width: 100%;
+    }
+
+    /* Especificidad: 003 */
+    body > header + nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Especificidad: 101 */
+    section#alineacion_corredores {
+        grid-template-columns: 1fr;
+    }
+
+    /* Especificidad: 002 */
+    body > header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Especificidad: 004 */
+    body > header nav ul {
+        flex-direction: column;
+        align-items:center;
+        gap: 0.5em;
+    }
+
+    /* Especificidad: 003 */
+    body > header + nav {
+        display:none;
+    }
+}

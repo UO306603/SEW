@@ -1,0 +1,102 @@
+/* ***************************************/
+/*             LaVuelta2026              */
+/*          Estilos generales            */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/*  Nombre y Apellidos: Andrés Fernández García*/
+/*  Correo electrónico (uniovi): UO306603@uniovi.es*/
+/*  Grupo de laboratorio: 5              */
+/* ***************************************/
+
+/* Especificidad: 001 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ==========================================================================
+   Estudio de Gama Cromática
+   - Color principal: #14213D
+    --> Contraste de 15.60:1 con Blanco - Cumple AAA
+    --> Contraste de 7.88:1 con Color Secundario - Cumple AAA
+   - Color secundario: #FCA311
+    --> Contraste de 7.88:1 con Color Principal - Cumple AAA
+    --> Contraste de 11.16:1 con Negro - Cumple AAA
+   - Blanco: #FFFFFF
+   - Negro: #000000
+   ========================================================================== */
+
+/* Especificidad: 000 */
+:root {
+    --color-principal: #14213D;
+    --color-secundario: #FCA311;
+    --color-negro: #000000;
+    --color-blanco: #FFFFFF;
+}
+
+/* Especificidad: 001 */
+body {
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+}
+
+/* Especificidad: 001 */
+header {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}
+
+/* Especificidad: 001 */
+footer {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}
+
+/* Especificidad: 002,002*/
+header a, footer a {
+    color: var(--color-secundario); /*ADVERTENCIA: color de fondo heredado de header y footer --color-principal */
+    text-decoration-line: none;
+}
+
+/* Especificidad: 001,001 */
+h2, h3{
+    color: var(--color-principal); /* ADVERTENCIA: color de fondo heredado de body --color-blanco*/
+}
+
+/* Especificidad: 010*/
+[aria-current="page"] {
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+}
+
+/* Especificidad: 011*/
+[aria-label="migas"] > ol{
+    font-size: 0.8em;
+    list-style:none;
+}
+
+/* Especificidad: 012*/
+[aria-label="migas"] > ol > li{
+display: inline;
+}
+
+/* Especificidad: 021*/
+[aria-label="migas"] > ol :last-child{
+    font-weight: bold;
+}
+
+/*Especificidad: 102*/
+section#datos_personales ul {
+    list-style-type: none;  
+    padding: 0;             
+}
+
+/*Especificidad: 112*/
+section#datos_personales ul li:first-child{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+
